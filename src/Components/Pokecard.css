@@ -1,6 +1,15 @@
 .Pokecard {
-  display: inline-block;
-  border: 2px solid teal;
+  /* display: inline-block; */
+  /* border: 2px solid teal; */
   border-radius: 10px;
   padding: 0 20px;
+  width: 200px;
+  box-shadow: 7px 10px 12px -5px rgba(0, 0, 0, 0.56);
+  background-color: #fff;
+  text-align: center;
+}
+
+.Pokecard-data__exp {
+    font-weight: bold;
+    color:rgb(6, 194, 194);
 }

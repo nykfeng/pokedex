@@ -18,8 +18,8 @@ const Pokedex = () => {
   return (
     <div className="Pokedex">
       <h1>Pokedex!</h1>
+      <div className="Pokedex-cards">
       { defaultProps.pokemon.map((p) => (
-         
         <Pokecard
           id={p.id}
           name={p.name}
@@ -27,6 +27,7 @@ const Pokedex = () => {
           exp={p.base_experience}
         />
       ))}
+      </div>
     </div>
   );
 };
