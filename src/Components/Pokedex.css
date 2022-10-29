@@ -4,4 +4,18 @@
   max-width: 100%;
   justify-content: center;
   gap: 20px;
+  margin: 0 30px;
+}
+
+.Pokedex-loser {
+  color: rgb(219, 23, 23)
+}
+
+.Pokedex-winner {
+  color: rgb(33, 216, 49)
+}
+
+.exp-text {
+  font-size: 32px;
+  color: rgb(16, 206, 206);
 }
